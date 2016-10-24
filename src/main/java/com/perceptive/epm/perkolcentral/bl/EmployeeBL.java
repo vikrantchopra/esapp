@@ -290,7 +290,7 @@ public class EmployeeBL {
                     emailToSend.setSubject(String.format("New employee added : %s", employeeBO.getEmployeeName()));
                     emailToSend.send();
                     //==========================Mail send ends here===========================================================================================================
-                    sendMailToPerceptiveOpsTeam(employeeBO);//Send mail to operations team in Shawnee
+                    //sendMailToPerceptiveOpsTeam(employeeBO);//Send mail to operations team in Shawnee
                 } else {
                     //Update a new employee
                     employeeDataAccessor.updateEmployee(employeeBO);

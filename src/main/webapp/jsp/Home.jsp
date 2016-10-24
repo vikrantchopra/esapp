@@ -170,10 +170,16 @@
                         <table width="100%">
                             <tr>
                                 <td colspan="25%" align="center">
-                                    <div id="id_KolWeather" style="height:250px; margin:auto;"></div>
+                                    <!-- <div id="id_KolWeather" style="height:250px; margin:auto;"></div> -->
+                                    <div style="height:250px; width=100%; margin:auto; padding:5px">
+                                    	<iframe id="forecast_embed" style="border: 1px lightblue solid; border-radius: 15px" type="text/html" frameborder="1" height="245" width="100%" padding="10px" src="http://forecast.io/embed/#lat=22.5682&lon=88.3767&name=Kolkata&color=#00aaff&font=Georgia&units=uk"> </iframe>
+                                    </div>
                                 </td>
                                 <td colspan="25%" align="center">
-                                    <div id="id_Shawnee" style="height:250px; margin:auto;"></div>
+                                    <!-- <div id="id_Shawnee" style="height:250px; margin:auto;"></div> -->
+                                    <div style="height:250px; width=100%; margin:auto; padding:2px">
+                                    	<iframe id="forecast_embed" style="border: 1px lightblue solid; border-radius: 15px" type="text/html" frameborder="1" height="245" width="100%" padding="10px" src="http://forecast.io/embed/#lat=38.953617&lon=-94.733571&name=Lenexa&color=#00aaff&font=Georgia&units=uk"> </iframe>
+                                    </div>
                                 </td>
                                 <td colspan="25%" align="center">
                                     <div style="height:250px; margin:auto;">
